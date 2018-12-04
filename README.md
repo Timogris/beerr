@@ -1,2 +1,2 @@
-# Beerr
-iOS application that references places to have a beer around you.
+# Beer
+Android application that references places to have a beer around you.
