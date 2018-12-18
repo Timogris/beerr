@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -7,3 +12,20 @@
     android:id="@+id/map"
     tools:context=".MapsActivity"
     android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_round"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:padding="15dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="110dp"
+            android:text="Ajouter ma position"
+            android:textColor="#000000"/>
+
+
+
+</RelativeLayout>
