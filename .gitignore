@@ -1,6 +1,7 @@
 *.iml
 *.properties
 *.gradle
+gradle/
 gradlew
 gradlew.bat
 .gradle/
