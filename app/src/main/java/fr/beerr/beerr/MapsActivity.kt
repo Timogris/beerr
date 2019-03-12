@@ -83,7 +83,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
         setUpMap()
 
-        val textInfo = "Prix: 5€" + "\n" + "4 Rue Octavio Mey, 69005 Lyon"
+        val textInfo = "4 Rue Octavio Mey, 69005 Lyon"
         val boc = LatLng(45.766238, 4.828119)
         mMap.addMarker(MarkerOptions().position(boc).title("Beer O'Clock").snippet(textInfo))
         
